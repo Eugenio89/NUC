@@ -23,7 +23,9 @@
         <activity
             android:name=".AppleJuice"
             android:label="@string/title_activity_apple_juice"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".nuc_health" />
+        <activity android:name=".Settings"></activity>
     </application>
 
 </manifest>
