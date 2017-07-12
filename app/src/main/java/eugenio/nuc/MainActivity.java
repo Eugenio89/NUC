@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         GetStartedButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Navigation.class));
+                startActivity(new Intent(MainActivity.this, menu_principal.class));
             }
         });
 
