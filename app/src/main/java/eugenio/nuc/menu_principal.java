@@ -13,11 +13,13 @@ public class menu_principal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
 
-        configureCardView();
+        configureCardView5();
+        configureCardView6();
+        configureCardView7();
 
     }
-        private void configureCardView() {
-            CardView cardView = (CardView) findViewById(R.id.cardView);
+        private void configureCardView7() {
+            CardView cardView = (CardView) findViewById(R.id.cardView7);
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -27,4 +29,30 @@ public class menu_principal extends AppCompatActivity {
 
 
         }
+
+        private void configureCardView6() {
+            CardView cardView = (CardView) findViewById(R.id.cardView6);
+            cardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(menu_principal.this, nuc_health.class));
+                }
+            });
+
+
+        }
+
+
+        private void configureCardView5() {
+            CardView cardView = (CardView) findViewById(R.id.cardView5);
+            cardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(menu_principal.this, JuicerControl.class));
+                }
+            });
+
+
+        }
+
 }
