@@ -82,7 +82,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicOrangeJuice.class));
                 }
             });
         }
@@ -92,7 +92,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicGrapeJuice.class));
                 }
             });
         }
@@ -102,7 +102,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicCabbageJuice.class));
                 }
             });
         }
@@ -112,7 +112,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicTomatoJuice.class));
                 }
             });
         }
@@ -122,7 +122,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicSpinachJuice.class));
                 }
             });
         }
@@ -132,7 +132,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicCeleryJuice.class));
                 }
             });
         }
@@ -142,7 +142,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicKaleJuice.class));
                 }
             });
         }
@@ -152,7 +152,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicWheatgrassJuice.class));
                 }
             });
         }
@@ -162,7 +162,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicBellPepperJuice.class));
                 }
             });
         }
@@ -172,7 +172,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicCarrotAndCeleryJuice.class));
                 }
             });
         }
@@ -182,7 +182,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicDreamyCarrotJuice.class));
                 }
             });
         }
@@ -192,7 +192,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicDetoxGreenJuice.class));
                 }
             });
         }
@@ -202,7 +202,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicCelebCeleryJuice.class));
                 }
             });
         }
@@ -212,7 +212,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicBabySpinachJuice.class));
                 }
             });
         }
@@ -222,7 +222,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicMultivitaminJuice.class));
                 }
             });
         }
@@ -232,7 +232,7 @@ public class BasicJuices extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                    startActivity(new Intent(BasicJuices.this, BasicTangyTomato.class));
                 }
             });
         }
@@ -242,7 +242,7 @@ public class BasicJuices extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(BasicJuices.this, BasicAppleJuice.class));
+                startActivity(new Intent(BasicJuices.this, BasicPurpleCabbageJuice.class));
             }
         });
 

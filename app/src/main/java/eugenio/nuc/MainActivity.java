@@ -13,18 +13,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        configureGetStartedButton();
+    //    configureGetStartedButton();
     }
 
-    private void configureGetStartedButton() {
-        Button GetStartedButton = (Button) findViewById(R.id.GetStartedButton);
-        GetStartedButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, menu_principal.class));
-            }
-        });
+    //private void configureGetStartedButton() {
+    //    Button GetStartedButton = (Button) findViewById(R.id.GetStartedButton);
+    //    GetStartedButton.setOnClickListener(new View.OnClickListener() {
+    //        @Override
+    //        public void onClick(View v) {
+    //            startActivity(new Intent(MainActivity.this, menu_principal.class));
+    //        }
+    //    });
 
+    //}
+
+    //Si no funciona, borrar desde aqui
+    public void GetStartedButton (View view){
+        Intent intent = new Intent(this, menu_principal.class);
+        startActivity(intent);
     }
-
+    //hasta aqui (y quitar los comentarios de arriba)
 }

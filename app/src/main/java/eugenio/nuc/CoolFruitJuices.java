@@ -253,7 +253,8 @@ public class CoolFruitJuices extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CoolFruitJuices.this, CoolMalibuBayBreeze.class));
+                startActivity(new Intent(CoolFruitJuices.this, CoolMalibuBayBreeze
+                        .class));
             }
         });
     }
