@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+
     package="eugenio.nuc">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    //Esto es nuevo App Independiente
+    <!--Esto es nuevo App Independiente-->
+
     <meta-data
         android:name="com.google.android.wearable.standalone"
         android:value="true"
         />
-    //Hasta aca
+
+    <!--Hasta aca-->
 
 
     <application
@@ -116,6 +120,8 @@
         <activity android:name=".SmoothiesCranberrySorbet" />
         <activity android:name=".SmoothiesBerryDelight" />
         <activity android:name=".SmoothiesOrangeLemonSorbet" />
+
+
     </application
 
         >

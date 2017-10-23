@@ -1,7 +1,10 @@
 package eugenio.nuc;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+
 
 public class Settings extends AppCompatActivity {
 
@@ -10,4 +13,13 @@ public class Settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
     }
+
+    public void button_BL (View view){
+        //Intent intent = new Intent(this, com.adafruit.bluefruit.le.connect.app.MainActivity.class); //LLama a la main de BL
+        Intent intent = new Intent(this, MainActivity.class);
+
+        startActivity(intent);
+    }
+
+
 }

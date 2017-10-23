@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Si no funciona, borrar desde aqui
     public void GetStartedButton (View view){
-        Intent intent = new Intent(this, menu_principal.class);
+        Intent intent = new Intent(this, menu_principal.class); //Esta era la buena
         startActivity(intent);
     }
     //hasta aqui (y quitar los comentarios de arriba)
